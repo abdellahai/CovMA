@@ -7,6 +7,7 @@ class HomeView extends StatelessWidget {
       body: SingleChildScrollView(
         child: Container(
           color: Colors.white,
+          child: Column(),
         ),
       ),
     );
