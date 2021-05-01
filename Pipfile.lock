@@ -7,13 +7,11 @@
         "requires": {
             "python_version": "3.9"
         },
-        "sources": [
-            {
-                "name": "pypi",
-                "url": "https://pypi.org/simple",
-                "verify_ssl": true
-            }
-        ]
+        "sources": [{
+            "name": "pypi",
+            "url": "https://pypi.org/simple",
+            "verify_ssl": true
+        }]
     },
     "default": {
         "asgiref": {
@@ -24,28 +22,7 @@
             "markers": "python_version >= '3.6'",
             "version": "==3.3.4"
         },
-        "biopython": {
-            "hashes": [
-                "sha256:010142a8ec2549ff0649edd497658964ef1a18eefdb9fd942ec1e81b292ce2d9",
-                "sha256:0b9fbb0d3022dc22716da108b8a81b80d952cd97ac1f106de491dce850f92f62",
-                "sha256:0df5cddef2819c975e6508adf5d85aa046e449df5420d02b04871c7836b41273",
-                "sha256:194528eda6856a4c68f840ca0bcc9b544a5edee3548b97521084e7ac38c833ca",
-                "sha256:195f099c2c0c39518b6df921ab2b3cc43a601896018fc61909ac8385d5878866",
-                "sha256:1ee0a0b6c2376680fea6642d5080baa419fd73df104a62d58a8baf7a8bbe4564",
-                "sha256:2bd5a630be2a8e593094f7b1717fc962eda8931b68542b97fbf9bd8e2ac1e08d",
-                "sha256:4565c97fab16c5697d067b821b6a1da0ec3ef36a9c96cf103ac7b4a94eb9f9ba",
-                "sha256:48d424453a5512a1d1d41a4acabdfe5291da1f491a2d3606f2b0e4fbd63aeda6",
-                "sha256:5c0b369f91a76b8e5e36624d075585c3f0f088ea4a6e3d015c48f08e48ce0114",
-                "sha256:75b55000793f6b76334b8e80dc7e6d8cd2b019af917aa431cea6646e8e696c7f",
-                "sha256:ada611f12ee3b0bef7308ef41ee7b94898613b369ab44e0268d74bd1d6a06920",
-                "sha256:cc3b0b78022d14f11d508038a288a189d03c97c476d6636c7b6f98bd8bc8462b",
-                "sha256:e0af107cc62a905d13d35dd7b38f335a37752ede45e4617139e84409a6a88dc4",
-                "sha256:f1076653937947773768455556b1d24acad9575759e9089082f32636b09add54",
-                "sha256:f5021a398c898b9cf6815cc5171c146a601b935b55364c53e6516a2545ab740c"
-            ],
-            "index": "pypi",
-            "version": "==1.78"
-        },
+
         "django": {
             "hashes": [
                 "sha256:0604e84c4fb698a5e53e5857b5aea945b2f19a18f25f10b8748dbdf935788927",
