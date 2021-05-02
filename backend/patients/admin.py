@@ -1,3 +1,8 @@
 from django.contrib import admin
-
-# Register your models here.
+from patients.models import *
+admin.site.register(Patient)
+admin.site.register(Virus)
+admin.site.register(Virus_var)
+admin.site.register(ACE)
+admin.site.register(ACE_Var)
+admin.site.register(Status)
